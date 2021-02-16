@@ -1,0 +1,118 @@
+* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    color: #333;
+    font-family: "Candara";
+    line-height: 1.5;
+  }
+  
+  .hidden{
+      display: none;
+  }
+  
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    border-top: 4px solid #888;
+    border-bottom: 4px solid #888;
+    padding: 15px ;
+    margin-bottom: 32px;
+  }
+
+  h2:hover {
+    color: rgb(26, 160, 138);
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: rgb(88, 185, 126);
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  section + section {
+    margin-top: 32px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #888;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    border-radius: 9999px;
+    width: 310px;
+    height: 310px;
+  }
+  
+  .profile p {
+    color: #888;
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+  
+  .contact ul {
+    margin-top: -32px;
+  }
+  
+  .contact li {
+    text-align: left;
+    padding: 14px;
+    color: #888;
+    border-bottom: 2px solid #888;
+    font-size: 16px;
+  }
+  
+  .skills > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14px;
+  }
+  
+  .timeline .event + .event {
+    padding-top: 16px;
+  }
+  
+  .timeline .event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+  }
+  
+  .timeline .content {
+    border-left: 2px solid #888;
+    padding-left: 32px;
+    margin-left: 32px;
+  }
+  
+  .content > h3 + p {
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .cv {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 64px;
+    background-color: white;
+    padding: 46px;
+    max-width: 1000px;
+    margin: auto;
+}
